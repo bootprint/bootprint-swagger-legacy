@@ -1,0 +1,41 @@
+{
+  "name": "bootprint-swagger",
+  "version": "0.0.0",
+  "description": "Bootprint-module to render swagger specifications",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nknapp/bootprint-swagger.git"
+  },
+  "author": {
+    "name": "Nils Knappmeier",
+    "email": "npm@knappi.org",
+    "url": "https://github.com/nknapp"
+  },
+  "bugs": {
+    "url": "https://github.com/nknapp/bootprint-swagger/issues"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "standard --version || npm -g install standard",
+    "test": "mocha && standard",
+    "preformat": "standard --version || npm -g install standard",
+    "format": "standard --format"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "standard": {
+    "ignore": [
+      "spec/fixtures/**"
+    ]
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "bin"
+  ],
+  "keywords": [ &quot;swagger&quot;, &quot;html&quot;, &quot;swagger-to-html&quot; ]
+}
