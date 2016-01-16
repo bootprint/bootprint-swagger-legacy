@@ -7,11 +7,4 @@
 
 'use strict'
 
-module.exports = bootprintSwagger
-/**
- * Describe your module here
- * @public
- */
-function bootprintSwagger () {
-  // body
-}
+module.exports = require('bootprint-openapi')
