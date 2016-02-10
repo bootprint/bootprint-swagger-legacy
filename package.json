@@ -37,5 +37,5 @@
     "lib",
     "bin"
   ],
-  "keywords": [ &quot;swagger&quot;, &quot;html&quot;, &quot;swagger-to-html&quot; ]
+  "keywords": [ "swagger", "html", "swagger-to-html" ]
 }
