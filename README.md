@@ -6,29 +6,22 @@
 
 > Bootprint-module to render swagger specifications
 
+The old `bootprint-swagger`-module has now been renamed to [bootprint-openapi](https://npmjs.com/package/bootprint-openapi) and
+https://github.com/nknapp/bootprint-swagger/blob/v0.0.0/nknapp/bootprint-openapi on Github
+
+This is a compatibility package. It depends on [bootprint-openapi](https://npmjs.com/package/bootprint-openapi) and does noting more than
+that. If you have a dependency on `bootprint-swagger` in your module, this package will help you
+load the newest version of `bootprint-openapi` automatically (as long as we are still using 
+pre-release versions.
+
+If you have any problems getting the newest version, a good thing to try is `npm -g cache clean` 
+to clear your npm cache.
 
 # Installation
 
 ```
 npm install bootprint-swagger
 ```
-
- 
-## Usage
-
-The following example demonstrates how to use this module:
-
-```js
-
-```
-
-This will generate the following output
-
-```
-
-```
-
-##  API-reference
 
 
 

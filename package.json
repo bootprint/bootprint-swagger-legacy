@@ -22,7 +22,9 @@
     "preformat": "standard --version || npm -g install standard",
     "format": "standard --format"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootprint-openapi": "<1.0.0"
+  },
   "devDependencies": {
     "chai": "^3.2.0",
     "mocha": "^2.2.5"
