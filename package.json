@@ -1,6 +1,6 @@
 {
   "name": "bootprint-swagger",
-  "version": "0.0.0",
+  "version": "0.14.0",
   "description": "Bootprint-module to render swagger specifications",
   "repository": {
     "type": "git",
@@ -27,7 +27,9 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
-    "mocha": "^2.2.5"
+    "ghooks": "^1.0.3",
+    "mocha": "^2.2.5",
+    "thoughtful-release": "^0.3.0"
   },
   "standard": {
     "ignore": [
@@ -39,5 +41,14 @@
     "lib",
     "bin"
   ],
-  "keywords": [ "swagger", "html", "swagger-to-html" ]
+  "config": {
+    "ghooks": {
+      "pre-commit": "standard"
+    }
+  },
+  "keywords": [
+    "swagger",
+    "html",
+    "swagger-to-html"
+  ]
 }

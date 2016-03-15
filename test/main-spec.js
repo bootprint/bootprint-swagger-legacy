@@ -12,7 +12,7 @@
 
 'use strict'
 
-var bootprintSwagger = require('../')
+// var bootprintSwagger = require('../')
 
 describe('bootprint-swagger:', function () {
   // body
