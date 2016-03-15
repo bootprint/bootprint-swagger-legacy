@@ -4,7 +4,7 @@
   "description": "Bootprint-module to render swagger specifications",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nknapp/bootprint-swagger.git"
+    "url": "https://github.com/bootprint/bootprint-swagger.git"
   },
   "author": {
     "name": "Nils Knappmeier",
@@ -12,7 +12,7 @@
     "url": "https://github.com/nknapp"
   },
   "bugs": {
-    "url": "https://github.com/nknapp/bootprint-swagger/issues"
+    "url": "https://github.com/bootprint/bootprint-swagger/issues"
   },
   "main": "index.js",
   "license": "MIT",
